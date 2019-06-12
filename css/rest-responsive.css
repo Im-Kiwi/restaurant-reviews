@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 650px) {
+  .inside {
+    display:flex;
+    flex-wrap: wrap;
+
+  }
+
+  .inside header {
+    order:1;
+  }
+
+ nav h1 {
+  top: 17px;
+  position: relative;
+
+ }
+
+  #breadcrumb {
+    width:100vw;
+  }
+
+  .inside #map-container {
+    order:2;
+    position:relative;
+    width: 100vw;
+    height: 400px;
+    top:130px;
+    z-index: 5;
+  }
+
+  #restaurant-container {
+    text-align: center;
+  }
+
+  #restaurant-container #restaurant-img, #restaurant-cuisine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #restaurant-container, #reviews-container {
+    width:85vw;
+  }
+
+  h2{
+    text-align:center;
+  }
+
+  li p:nth-child(1){
+  	background-color: orange;
+  }
+
+  li p:nth-child(2) {
+    text-align: justify;
+    left: 20%;
+    position: relative;
+    top: 0;
+    background-color: #b3e6ff;
+  }
+
+  li p:nth-child(3){
+    color: #33cc33;
+  }
+
+   .inside #footer {
+    width:90vw;
+    text-align: center;
+  }
+
+}
